@@ -1,18 +1,18 @@
 <?php
-$a = 99999;
-$b = 11111;
+$firstNO = 990;
+$secondNo = 90;
 
-echo  "Result of a + b is " . ($a+$b);
+echo  "Result of $firstNO + $secondNo is " . ($firstNO+$secondNo);
 echo "<br>";
-echo  "Result of a - b is " . ($a-$b);
+echo  "Result of a - b is " . ($firstNO-$secondNo);
 echo "<br>";
-echo  "Result of a * b is " . ($a*$b);
+echo  "Result of a * b is " . ($firstNO*$secondNo);
 echo "<br>";
-echo  "Result of a / b is " . ($a/$b);
+echo  "Result of a / b is " . ($firstNO/$secondNo);
 echo "<br>";
-echo  "Result of a*b is " . ($a*$b);
+echo  "Result of a*b is " . ($firstNO*$secondNo);
 echo "<br>";
-echo  "Result of a%b is " . ($a%$b);
+echo  "Result of a%b is " . ($firstNO%$secondNo);
 echo "<br>";
 
 ?>
