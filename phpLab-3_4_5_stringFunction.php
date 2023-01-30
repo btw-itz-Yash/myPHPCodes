@@ -190,8 +190,20 @@ echo "<br>";
 //32.
 strpos("hello", 4);// ---> string position   stripos --> case insensitive
 // stripos();
-
-
+echo "<br>";
+//33.
+echo(strtr("hay","a","e")) ;
+echo "<br>";
+//34.
+echo strtr("hilla warld", "ia", "eo");
+echo "<br>";
+//35.
+$arr = ["Hilla" => "hi", "world" => "class"];
+echo strtr("Hilla world", $arr);
+echo "<br>";
+//36.
+echo substr("Hello World", -2);
+echo "<br>";
 ?> 
 
 
