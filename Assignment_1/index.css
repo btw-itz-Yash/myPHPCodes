@@ -1,0 +1,38 @@
+* {
+    max-width: 1100px;
+    margin: auto;
+}
+font,hr{
+    color:rgb(51, 16, 139)
+}
+h1{
+    color: blue;
+}
+b,h4{
+    margin-left: 20px;
+}
+h2{
+    margin-left: 10px;
+}
+img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    margin-right: 270px;
+    border-radius: 5%;
+}
+.spacing {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 120px;
+    width: 75%;
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+p,li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+    
