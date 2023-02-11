@@ -1,4 +1,5 @@
 <?php
+//<-----Question:1-------->
 $input_string = "hello world";
 $ipstring2 = "HELLO WORLD";
 echo strtoupper($input_string); // converts all character to uppercase
