@@ -25,7 +25,7 @@ echo "<br>";
 $str1 = 'The quick brown fox jumps over the lazy dog.';
 if (str_contains($str1,'over'))
 {
-    echo 'The specific word is present.';
+    echo 'string contains the string ';
 }
 else
 {
@@ -82,7 +82,7 @@ echo "<br>";
 
 //<-----Question:9-------->
 $str1 = 'facebook';
-$str2 = 'facebool';
+$str2 = 'faceboll';
 $str_pos = strspn($str1 ^ $str2, "\0");
 printf('First difference between two strings at position %d: "%s" vs "%s"', $str_pos, $str1[$str_pos], $str2[$str_pos]);
 echo "<br>";
