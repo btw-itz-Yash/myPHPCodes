@@ -16,11 +16,12 @@ echo "<br>";
 //<-----Question:2-------->
 $input_string = "082307";
 $input = str_split($input_string,2);
+echo (str_split($input_string,2));
 echo join(':',$input);
 echo "<br>";
 echo "<br>";
-
-
+// print("hello","World");
+echo " my name hello","World";
 //<-----Question:3-------->
 $str1 = 'The quick brown fox jumps over the lazy dog.';
 if (str_contains($str1,'over'))
@@ -52,7 +53,7 @@ echo "<br>";
 
 //<-----Question:5-------->
 $s = 'rayy@example.com';
-echo substr($s, -3);
+echo substr($s, 0,3);
 echo "<br>";
 echo "<br>";
 
@@ -60,7 +61,7 @@ echo "<br>";
 //<-----Question:6-------->
 $a1 = 65.45;
 $a2 = 104.35;
-echo sprintf("%1.2f", $a1+$a2);
+echo sprintf("%.4f", $a1+$a2);
 echo "<br>";
 echo "<br>";
 
@@ -91,5 +92,5 @@ echo "<br>";
 
 //<-----Question:10-------->
 $str = "Twinkle, twinkle, little star,\nHow I wonder what you are.\nUp above the world so high,\nLike a diamond in the sky.";
-$arra1 = explode("<br>", $str);
+$arra1 = explode(" ", $str);
 var_dump($arra1);

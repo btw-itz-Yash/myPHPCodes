@@ -42,7 +42,7 @@
     }
     add_new1("hello",32);
 
-    //Q. you have to design a function with a given name adamcheck that must read integer value now you have to check
+    //Q. you have to design a function with a given name adamcheck that nteger valmust read iue now you have to check
     // whether the given value is adam number or not, return the value 
 
     function adamcheck(int $val){

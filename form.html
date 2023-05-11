@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        *{
+            padding: auto;
+        }
+        body{
+            background-image: url(./Screenshot\ 2022-04-22\ 002458.jpg);
+            background-repeat: y-repeat;
+            background-position:center top;
+            background-attachment:fixed;
+            background-size: 100% 100%;
+        }
+        .container{
+            /* border: solid 2px white; */
+
+            background: rgba(33, 12, 81, 0.3);
+            opacity: 1;
+            margin: 80px 80px;
+            height: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        td,input{
+            color: brown;
+        }
+        input:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="./calculator.php" method="post">
+            <table>
+                <tr>
+                    <td>Enter First Number</td>
+                    <td><input type="text" name="fnum"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Enter Second Number</td>
+                    <td><input type="text" name="snum"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td style="margin-left: 650px;"><input type="submit" name="Add" value="Addition">
+                        <input type="submit" name="Sub" value="Subtraction">
+                        <input type="submit" name="Mul" value="Mutiply">
+                        <input type="submit" name="Div" value="Divide">
+                        <input type="submit" name="Mod" value="Modulous">
+                        <input type="reset" value="reset" name="reset">
+                        <input type="checkbox" value="time" name="time">
+                    </td>
+                </tr>
+                <br>
+                <br>
+                <TR>
+                    <TD>ADDITION OF TWO NUMBER IS</TD>
+                    <TD> <INPUT ></INPUT></TD>
+                </TR>
+                
+            </table>
+        </form>
+            
+    </div>
+</body>
+</html>

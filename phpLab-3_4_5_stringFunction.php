@@ -55,19 +55,19 @@ echo "<br>";
 
 //4. remove unwanted white space - chop function
 // it works by right side or by ending character or we can say that it remove the right end white space
-$var = " php";
+$var = "phppp ";
 $var_new = chop($var,"p");
 var_dump($var);
 echo "<br>";
 var_dump($var_new);
 echo "<br>";
-echo chop("hello class", 'salc');
+echo chop("hello class", 'sal');
 
 echo "<br>";
 echo "<br>";
 
-//5. chunk_split( string,length,separater )
-echo chunk_split("hello", 2,":");
+//5. chunk_split( string,length,separater)
+echo chunk_split("hello","1");
 
 echo "<br>";
 echo "<br>";
@@ -92,7 +92,7 @@ echo ord('A');
 echo "<br>";
 echo "<br>";
 
-//9. count chars   there 256 total character from ascii value 0-255";
+echo "//9. count chars   there 256 total character from ascii value 0-255";
 echo "<br>";
 print_r(count_chars("hello",3));//for value 1 it print the array of ascci character given in string and by 2 it work like default i.e give all the ascci character value array
 
@@ -187,8 +187,8 @@ strlen("yash"); // --> string length
 
 echo "<br>";
 
-//32.
-strpos("hello", 4);// ---> string position   stripos --> case insensitive
+echo "//32.";
+echo(strpos("hello", "e"));// ---> string position   stripos --> case insensitive
 // stripos();
 echo "<br>";
 //33.

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Form Assignment</title>
+</head>
+<body>
+    <br><br><br>
+    <form action="data.php" method="post">
+        <table border="4" align="center" cellpadding="5px">
+            <tr>
+                <th align="center" colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+
+                <td><label for='al'>Student Name</label> </td>
+                <td><input id="al" type="text" name="uname" required/></td>
+
+            </tr>
+
+            <tr>
+                <td ><label for=a2>Father's Name</label> </td>
+                <td><input id="a2" type="text" name="fname" required /></td>
+            </tr>
+
+            <tr>
+
+                <td><label for=a3>Mother's Name</label> </td>
+                <td><input id="a3" type="text" name="mname" /></td>
+
+            </tr>
+            <tr>
+                <td><label for a4>Date of Birth</label></td>
+                <td><input id="a4" type="date" name="dob" /></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label>Male</label> <input type="radio" name="gen" value="male">
+                    <label>Female</label><input type="radio" name="gen" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td><label for=a6>Email ID</label></td>
+                <td><input id="a6" type='email' name="email" /></td>
+            </tr>
+
+            <tr>
+                <td><label for a7>Mobile No.</label></td>
+                <td><input id="a7" type="number" name="mob" /></td>
+            </tr>
+
+            <tr height="80px">
+                <td><label for="a8">Address</label></td>
+                <td><textarea id="a8" rows="3" name="address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="a9">State</label> </td>
+                <td><input id="a9" type="text" name="state" /></td>
+
+            </tr>
+
+            <td><label for="bl">City</label></td>
+            <td><input type="text" name="city" /></td>
+            </tr>
+            <!-- <tr> -->
+                <td colspan="2" align="center"><input type="submit" value="submit" name="save" /></td>
+            <!-- </tr> -->
+
+        </table >
+    </form>
+</body>
+</html>
